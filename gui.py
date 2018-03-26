@@ -65,7 +65,7 @@ def selectDir():
 root = Tk()
 modelSrc = None
 fileDir = None
-root.title("人脸变换 in Python - 3150103960 边嘉蒙")
+root.title("人脸变换 in Python")
 placeholder = ImageTk.PhotoImage(Image.fromarray(cv2.cvtColor(cv2.imread(resourcePath("placeholder.jpeg")), cv2.COLOR_BGR2RGB)))
 panelA = Label(image=placeholder)
 panelA.pack(side="left", padx=10, pady=10)
